@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     </title>
     <link rel="stylesheet" href="pure-avocado.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <nav>
@@ -21,7 +22,7 @@
         </a>
         <ul class="nav-links">
             <li>
-                <a href="#">
+                <a href="index.html">
                     Home
                 </a>
             </li>
@@ -67,22 +68,22 @@
 
 </li>
             <li>
-                <a href="#">
+                <a href="story.html">
                     Our Story
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="circularity.html">
                     Circularity
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="impact.html">
                     Impact
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="contact.html">
                     Contact
                 </a>
             </li>
@@ -90,10 +91,28 @@
         <div class="menu-toggle">
             ☰
         </div>
-        <a href="#"
-           class="shop-btn">
-            Shop Now
-        </a>
+       <div class="nav-actions">
+
+    <a href="account.html"
+       class="account-icon">
+
+        <i class="fas fa-user"></i>
+        <!-- <span>Account</span> -->
+
+    </a>
+
+    <a href="cart.html"
+       class="cart-icon">
+
+        <i class="fas fa-shopping-cart"></i>
+
+       <span class="cart-count" id="cart-count">0</span>
+
+        <!-- <span>Cart</span> -->
+
+    </a>
+
+</div>
     </div>
 </nav>
 <section class="product-page">
@@ -486,6 +505,7 @@ provides versatile natural care for the whole family
 
 </footer>
 <script src="script.js"></script>
+<script src="cart-badge.js"></script>
 </body>
 </body>
 </html>

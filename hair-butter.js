@@ -420,15 +420,16 @@ if(addToCartBtn){
             .dataset.price
         );
 
+       
         const product = {
 
-            name: "Root & Revive",
+            name: "Intensive Hair Butter",
 
-            subtitle: "Triple Active Hair Elixir",
+            subtitle: "Deep Moisture Hair Butter",
 
             category: "Hair Care",
 
-            image: "Images/root-revive.png",
+            image: "Images/hair-butter.png",
 
             size: selectedSize,
 
